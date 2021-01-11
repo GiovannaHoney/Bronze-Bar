@@ -2,6 +2,14 @@
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+.nav-item a {
+  color:  rgb(255, 0, 149)!important;
+  font-size: 1.2rem;
+}
+.nav-item a:hover {
+  color:  rgb(122, 66, 10)!important;
+}
+
 .filler {
   background-image: url(../img/BB-filler-cool.png);
   min-height: 100vh;
@@ -13,13 +21,12 @@
   -webkit-background-size:cover; 
   background-size:cover; 
   background-repeat:no-repeat;
-
 }
 
 .slay-position {
   position: absolute;
   top: 15%;
-  left: 10%;
+  left: 5%;
 } 
 .pinkText {
     color: rgb(255, 0, 149);
@@ -50,9 +57,9 @@
     text-decoration: underline;
 }
 
-.darkText {
+.lightText {
     font-family: 'Noto Serif', serif;
-    color: rgb(88, 74, 88);
+    color: rgba(255, 255, 255, 0.787);
     font-size: 2vw;
 }
 
@@ -112,12 +119,16 @@
 
 .home-button {
   color: rgb(255, 0, 149);
-
 }
 
 .backgroundOverlay {
   background: rgba(0,0,0,0.5);
   padding: 5px;
+  border-radius: 30px;
+}
+.backgroundOverlay1 {
+  background: rgba(53, 27, 14, 0.3);
+  padding: 15px;
   border-radius: 30px;
 }
 .fontMerienda {
@@ -160,7 +171,7 @@
 }
 
 .grid-item {
-  border-radius: 20px;
+  border-radius: 17px;
   padding: 5px;
 }
 
