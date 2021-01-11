@@ -1,0 +1,197 @@
+.fontAlegreya {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.filler {
+  background-image: url(../img/BB-filler-cool.png);
+  min-height: 100vh;
+  position: relative;
+  background-position:center; 
+  background-attachment:scroll; 
+  -o-background-size:cover; 
+  -moz-background-size:cover; 
+  -webkit-background-size:cover; 
+  background-size:cover; 
+  background-repeat:no-repeat;
+
+}
+
+.slay-position {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+} 
+.pinkText {
+    color: rgb(255, 0, 149);
+    font-family:'Allura', cursive;
+    font-size: 8vw;
+}
+
+.whiteText {
+    color: rgb(255, 255, 255);
+    font-family:'Allura', cursive;
+    /* font-size: 6vw; */
+    font-weight: bold;
+}
+
+.plainWhiteText {
+    color: rgb(255, 255, 255);
+    font-family:'Allura';
+    /* font-size: 6vw; */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.plainWhiteText:hover {
+    color: rgb(255, 255, 255);
+    font-family:'Allura';
+    /* font-size: 6vw; */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.darkText {
+    font-family: 'Noto Serif', serif;
+    color: rgb(88, 74, 88);
+    font-size: 2vw;
+}
+
+.btn {
+      background: rgb(255, 0, 149);
+      padding: 10px 43px;
+      box-shadow: 3px 4px 4px #796579;
+  }
+
+.fontAllura{
+    font-family:'Allura', cursive;
+  }
+.title-underline {
+    width: 100px;
+    height: 5px;
+    margin: 40px auto;
+    background:  rgb(255, 0, 149);
+  }
+
+.imgSize {
+  height: 250px;
+  width: 250px;
+}
+
+.blackBackground {
+  background: black;
+}
+
+.pinkBackground {
+  background: rgb(255, 0, 149);
+}
+
+.aboutUs-filler {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)) ,url(../img/about-us.png);
+  min-height: 120vh;
+  position: relative;
+  background-position:center; 
+  background-attachment:scroll; 
+  -o-background-size:cover; 
+  -moz-background-size:cover; 
+  -webkit-background-size:cover; 
+  background-size:cover; 
+  background-repeat:no-repeat;
+}
+
+.position-aboutUs{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.fontAboutus {
+  font-family: 'Allura', cursive;
+  color: rgb(255, 0, 149);
+  font-size: 6vw;
+}
+
+.home-button {
+  color: rgb(255, 0, 149);
+
+}
+
+.backgroundOverlay {
+  background: rgba(0,0,0,0.5);
+  padding: 5px;
+  border-radius: 30px;
+}
+.fontMerienda {
+  font-family: 'Merienda', cursive;
+}
+
+.followUs-filler {
+  background: url(../img/follow-us.png);
+  min-height: 100vh;
+  position: relative;
+  background-position:center; 
+  background-attachment:scroll; 
+  -o-background-size:cover; 
+  -moz-background-size:cover; 
+  -webkit-background-size:cover; 
+  background-size:cover; 
+  background-repeat:no-repeat;
+}
+
+.position-followUs {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+.fontSerif {
+  font-family: 'Noto Serif', serif;
+}
+
+.single-card:hover {
+  -webkit-box-shadow: 0 10px 15px rgb(0, 0, 0);
+  box-shadow: 0 10px 15px rgb(0, 0, 0);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.single-card {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  cursor: pointer; 
+}
+
+.grid-item {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+@media (max-width: 576px) {
+  .grid-item {
+    width: 75px;
+    height: 75px;
+  }
+  .pinkText {
+    font-size: 40px;
+  }
+  .darkText {
+    font-size: 15px;
+  }
+  .whiteText {
+    font-size: 6vw;
+  }
+  .plainWhiteText {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 576px) {
+  .whiteText {
+    font-size: 35px;
+  }
+  .plainWhiteText {
+    font-size: 35px;
+  }
+  .aboutUs-filler, .aboutUs-filler, .followUs-filler {
+    background-attachment: fixed; 
+  }
+
+}
